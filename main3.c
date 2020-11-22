@@ -3,29 +3,16 @@
 
 int main(int argc, char *argv[])
 {
-    int gz,ynsgz,shui;
-    printf("请输入您的工资\n");
-    scanf("%d",&gz);
-    ynsgz=gz-3500;
-    if
-        (ynsgz<=1500)
-        {shui=ynsgz*0.03;        
-    }    
-        if 
-            (ynsgz>1500&&ynsgz<=4500)
-        
-        {shui=ynsgz*0.1-105;
-        }        
-        if
-         (ynsgz<=9000&&ynsgz>4500)
-       { shui=ynsgz*0.2-555;}        
-       if
-         (ynsgz<=35000&&ynsgz>9000)
-       { shui=ynsgz*0.25-1005; }     
-       
-        printf("你应该缴纳个税%d\n",shui);
-        
-        
-    system("PAUSE");	
+  int x,y,z;
+  for(x=1;x<20;x++){
+      for(y=1;y<33;y++){
+          for(z=3;z<90;z+=3){
+              if (5*x+3*y+z/3==100 && x+y+z==100)
+              printf("公鸡为%d 母鸡为%d 小鸡为%d\n",x,y,z);
+              }
+          }
+      }
+      //printf("公鸡为%d 母鸡为%d 小鸡为%d\n",x,y,z);
+  system("PAUSE");	
   return 0;
 }
