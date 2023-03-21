@@ -2,7 +2,7 @@
 import pandas as pd
 from numpy import *
 
-gray = pd.read_excel("d:/data2.xlsx")
+gray = pd.read_excel("d:\\electricityConsumptionAndProductioction.xlsx")
 gray = (gray - gray.min()) / (gray.max() - gray.min())
 std = gray.iloc[:, 0]
 ce = gray.iloc[:, 1:]
