@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def exchange(self,nums:List[int])-> List[int]:
         i,j =0,len(nums)-1
